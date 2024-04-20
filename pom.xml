@@ -12,6 +12,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jar.finalName>person.jar</jar.finalName>
     </properties>
 
     <dependencies>
@@ -44,6 +45,7 @@
                             <mainClass>ir.oraclej.hsqlDemo.Main</mainClass>
                         </manifest>
                     </archive>
+                    <
                 </configuration>
             </plugin>
 
