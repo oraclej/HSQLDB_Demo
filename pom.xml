@@ -45,7 +45,7 @@
                             <mainClass>ir.oraclej.hsqlDemo.Main</mainClass>
                         </manifest>
                     </archive>
-                    <
+
                 </configuration>
             </plugin>
 
