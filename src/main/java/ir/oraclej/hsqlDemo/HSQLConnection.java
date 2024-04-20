@@ -29,8 +29,14 @@ public class HSQLConnection {
 
     private void initScript() {
         try {
-            Path p = Path.of(getClass().getClassLoader().getResource("init.sql").toURI());
-            String sql = Files.readString(p);
+//            Path p = Path.of(getClass().getClassLoader().getResource("init.sql").toURI());
+//            String sql = Files.readString(p);
+            String sql = "create table person(\n" +
+                    "    id int identity,\n" +
+                    "    name varchar(255),\n" +
+                    "    family varchar(255),\n" +
+                    "    age int\n" +
+                    ")";
             connection.prepareStatement(sql).execute();
         } catch (Exception e) {
             e.printStackTrace();
