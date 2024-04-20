@@ -29,6 +29,7 @@
 
     </dependencies>
     <build>
+        <finalName>person.jar</finalName>
         <plugins>
             <plugin>
                 <!-- Build an executable JAR -->
@@ -43,7 +44,6 @@
                             <mainClass>ir.oraclej.hsqlDemo.Main</mainClass>
                         </manifest>
                     </archive>
-                    <finalName>person.jar</finalName>
                 </configuration>
             </plugin>
 
