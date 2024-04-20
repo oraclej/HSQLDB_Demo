@@ -43,6 +43,7 @@
                             <mainClass>ir.oraclej.hsqlDemo.Main</mainClass>
                         </manifest>
                     </archive>
+                    <finalName>person.jar</finalName>
                 </configuration>
             </plugin>
 
