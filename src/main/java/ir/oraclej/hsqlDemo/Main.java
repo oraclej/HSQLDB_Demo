@@ -21,7 +21,7 @@ public class Main {
         PersonEntity p = new PersonEntity();
         System.out.println("Enter ID>");
         p.setId(Integer.parseInt(scanner.nextLine()));
-        System.out.println("Enter Name>");
+        System.out.println("Enter your Name>");
         p.setName(scanner.nextLine());
         System.out.println("Enter Family>");
         p.setFamily(scanner.nextLine());
