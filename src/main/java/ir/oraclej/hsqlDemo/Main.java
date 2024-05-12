@@ -23,7 +23,7 @@ public class Main {
         p.setId(Integer.parseInt(scanner.nextLine()));
         System.out.println("Enter your Name>");
         p.setName(scanner.nextLine());
-        System.out.println("Enter Family>");
+        System.out.println("Enter your Family>");
         p.setFamily(scanner.nextLine());
         System.out.println("Enter Age>");
         p.setAge(Integer.parseInt(scanner.nextLine()));
